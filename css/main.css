@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'muller_regular';
+  src: url('../fonts/mullerregular-webfont.woff2') format('woff2'),
+       url('../fonts/mullerregular-webfont.woff') format('woff'),
+       url('../fonts/mullerregular-webfont.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: 'debbyscript';
+    src: url('../fonts/debby-webfont.woff2') format('woff2'),
+         url('../fonts/debby-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?pf54s3');
+    src:  url('../fonts/icomoon.eot?pf54s3#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?pf54s3') format('truetype'),
+      url('../fonts/icomoon.woff?pf54s3') format('woff'),
+      url('../fonts/icomoon.svg?pf54s3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\e902";
+  }
+  .icon-vk:before {
+    content: "\e901";
+  }
+  .icon-youtube-play:before {
+    content: "\e900";
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    color: #000;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 17, 34, .8);
+  }
+  .nav-container {
+    max-width: 1556px;
+    margin: 0 auto;
+  }
+  .logo {
+    float: left;
+    top: 50%;
+  }
+  .menu-bar {
+    float: left;
+}
+  .socials {
+    float: right;
+  }
+  .menu-list li {
+    display: inline-block;
+  }
+  .menu-list a {
+    font-family: 'muller_regular', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 40px;
+    line-height: 95px;
+  }
+  .menu-list a:hover {
+    color: aqua;
+  }
+  .menu-socials li{
+    color: #fff;
+  }
+  .menu-socials li {
+    display: inline-block;
+    line-height: 95px;
+  }
+  .menu-socials a:hover {
+    color: aqua;
+  }
+  /* content */
+  .inner {
+    background-image: url('../img/Cooking_school.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .inner-title span {
+    font-family: 'debbyscript';
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: block;
+  }
+  .inner-title {
+    font-family: 'debbyscript';
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+  }
+  .inner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -30%);
+  }
+
+
