@@ -75,24 +75,29 @@
   header {
     position: fixed;
     overflow: hidden;
+    padding: 30px 0;
     top: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgba(0, 17, 34, .8);
+    background-color: rgba(0, 17, 34, 1);
   }
   .nav-container {
     max-width: 1556px;
     margin: 0 auto;
-  }
+    padding: 0 182px;
+   }
   .logo {
     float: left;
     top: 50%;
   }
   .menu-bar {
     float: left;
+    font-size: 0px;
+    margin-left: 120px;
 }
   .socials {
     float: right;
+    font-size: 0px;
   }
   .menu-list li {
     display: inline-block;
@@ -101,14 +106,23 @@
     font-family: 'muller_regular', sans-serif;
     font-size: 18px;
     color: #fff;
-    padding: 0 40px;
+    letter-spacing: 1px;
     line-height: 95px;
+  }
+  ul.menu-list li:not(:first-child) {
+    padding-left: 82px;
   }
   .menu-list a:hover {
     color: aqua;
   }
   .menu-socials li{
     color: #fff;
+  }
+  .menu-socials a{
+    font-size: 18px;
+  }
+  ul.menu-socials li:not(:first-child) {
+    padding-left: 20px;
   }
   .menu-socials li {
     display: inline-block;
@@ -127,9 +141,9 @@
   }
   .inner-title span {
     font-family: 'debbyscript';
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 600;
-    letter-spacing: 2px;
+    /* letter-spacing: 4px; */
     display: block;
   }
   .inner-title {
@@ -145,5 +159,19 @@
     text-align: left;
     transform: translate(-50%, -30%);
   }
-
+  .btn {
+    display: inline-block;
+    font-family: 'muller_regular', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #771111;
+    border: none;
+    text-align: center;
+    padding: 32px 65px;
+  }
+  .btn:hover {
+    color: aqua;
+    border: none;
+  }
 
