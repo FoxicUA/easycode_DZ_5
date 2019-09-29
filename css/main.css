@@ -25,8 +25,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
-  
+  }  
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -36,12 +35,10 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
+  }  
   .icon-facebook:before {
     content: "\e902";
   }
@@ -75,16 +72,16 @@
   header {
     position: fixed;
     overflow: hidden;
-    padding: 30px 0;
+    padding: 20px 0;
     top: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgba(0, 17, 34, 1);
+    background-color: rgba(0, 17, 34, 0.8);
   }
   .nav-container {
     max-width: 1556px;
     margin: 0 auto;
-    padding: 0 182px;
+    padding: 0 140px;
    }
   .logo {
     float: left;
@@ -93,7 +90,7 @@
   .menu-bar {
     float: left;
     font-size: 0px;
-    margin-left: 120px;
+    margin-left: 50px;
 }
   .socials {
     float: right;
@@ -106,14 +103,13 @@
     font-family: 'muller_regular', sans-serif;
     font-size: 18px;
     color: #fff;
-    letter-spacing: 1px;
-    line-height: 95px;
-  }
-  ul.menu-list li:not(:first-child) {
-    padding-left: 82px;
+    line-height: 80px;
+    padding: 0 40px;
   }
   .menu-list a:hover {
     color: aqua;
+    transition: 0.5s; 
+    text-decoration: underline;
   }
   .menu-socials li{
     color: #fff;
@@ -126,10 +122,11 @@
   }
   .menu-socials li {
     display: inline-block;
-    line-height: 95px;
+    line-height: 80px;
   }
   .menu-socials a:hover {
     color: aqua;
+    transition: 0.5s; 
   }
   /* content */
   .inner {
@@ -141,9 +138,7 @@
   }
   .inner-title span {
     font-family: 'debbyscript';
-    font-size: 100px;
-    font-weight: 600;
-    /* letter-spacing: 4px; */
+    font-size: 120px;
     display: block;
   }
   .inner-title {
@@ -157,21 +152,28 @@
     top: 50%;
     left: 50%;
     text-align: left;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -15%);
   }
   .btn {
+    display: inline-block;
+    background-color: #b41b1b;
+    border: none;
+    transform: translate(50%, 50%);
+  }
+  .btn a {
     display: inline-block;
     font-family: 'muller_regular', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #771111;
-    border: none;
     text-align: center;
-    padding: 32px 65px;
+    padding: 15px 50px;
   }
-  .btn:hover {
+  .btn a:hover {
     color: aqua;
     border: none;
+    transition: 0.5s; 
   }
+ 
+
 
